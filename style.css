@@ -120,6 +120,11 @@ body {
   transition: all 0.3s ease;
 }
 
+.features ul li:hover {
+  color: #f1ff26;
+  background: #c48342;
+}
+
 .features button {
   width: 100%; /* Tombol lebar penuh di mobile agar mudah ditekan */
   max-width: 250px;
@@ -133,6 +138,10 @@ body {
   background: #c48342;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
+}
+
+.features button:hover {
+  transform: translateY(-2px);
 }
 
 /* --- DESKTOP STYLES (Tablet & Desktop) --- */
@@ -159,7 +168,7 @@ body {
     width: auto; /* Ukuran normal di desktop */
   }
 
-  /* Hover effect hanya aktif di desktop (opsional tapi disarankan) */
+  /* Hover effect */
   .features ul li:hover {
     color: #f1ff26;
     background: #c48342;
