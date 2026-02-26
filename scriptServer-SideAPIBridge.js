@@ -46,7 +46,7 @@ features.insertBefore(shareText, quoteBtn);
 features.insertBefore(socialUl, quoteBtn);
 
 // 3. LOGIKA NODE.JS UNTUK API NINJAS
-const targetUrl = "https://quote-generator-nine-iota.vercel.app/";
+const targetUrl = "https://quote-generator-nine-iota.vercel.app/api/quotes";
 async function fetchQuotes() {
   quoteBtn.classList.add("loading");
   try {
